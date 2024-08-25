@@ -116,7 +116,7 @@ body {
     grid-template-columns: auto;
   }
   .item .image {
-    height: 80%;
+    height: 70%;
   }
   .container .aside {
     display: grid;
@@ -139,6 +139,9 @@ body {
     font-size: 3.2rem;
   }
   .item-content h4 {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
+  }
+  .item-content p:not(.p-item) {
+    font-size: 2.4rem;
   }
 }
