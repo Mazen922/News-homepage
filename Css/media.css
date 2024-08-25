@@ -47,8 +47,6 @@ body {
     align-content: center;
   }
 }
-@media (max-width: 28rem) {
-}
 
 /* Small screens, laptops – 769px — 1024px. */
 
@@ -117,8 +115,8 @@ body {
     gap: 0.8rem;
     grid-template-columns: auto;
   }
-  .item img {
-    height: 35%;
+  .item .image {
+    height: 80%;
   }
   .container .aside {
     display: grid;
@@ -137,6 +135,10 @@ body {
   .aside .aside-content {
     padding: 3.2rem;
   }
-}
-@media (max-width: 24rem) {
+  .item-content .p-item {
+    font-size: 3.2rem;
+  }
+  .item-content h4 {
+    font-size: 2.8rem;
+  }
 }
