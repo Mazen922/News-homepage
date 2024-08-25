@@ -120,7 +120,7 @@ body {
   }
   .container .aside {
     display: grid;
-    padding: 1.2rem;
+    padding: 0.8rem;
     grid-column: 1 / 2;
     grid-row: 3;
     background-color: var(--aside);
@@ -139,7 +139,7 @@ body {
     font-size: 3.2rem;
   }
   .item-content h4 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .item-content p:not(.p-item) {
     font-size: 1.8rem;
